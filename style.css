@@ -2,4 +2,7 @@
 .foto{
     max-width:150PX;
 }
-    
+    /* importaciones */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fira+Mono:wght@400;500;700&display=swap');
+
