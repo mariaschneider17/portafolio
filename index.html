@@ -1,121 +1,111 @@
 <!DOCTYPE html>
-<html lang="español">
-  <head>
-    <title>My portfolio</title>
+<html lang="es">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Descripción breve">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button class="menu-button" onclick="toggleMenu()">Menú</button>
+    <div class="menu-options" id="menu">
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#educacion">Educación</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </div>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta name="author" content="Your name" />
-    <meta name="description" content="Brief description" />
-
-    <meta property="og:title" content="Your Page Title" />
-    <meta property="og:description" content="Brief description" />
-    <meta property="og:image" content="/some-image.png" />
-    <meta property="og:url" content="/this-page.html" />
-    <meta property="og:site_name" content="Your Site Name" />
-
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- importar bootstrap  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- fin importacion bootstrap  -->
-  </head>
-
-  <body>
-    <section>
-    <h1>PORTAFOLIO</h1>
-    <button>MENU
-    </button>
-    <h2> MarÍa Schneider <h3>
-    <h3> SOBRE MI</h3>
-    <p>Estudiante de Diseño integral con experiencia en gestión de redes sociales y creación de propuestas de diseño publicitario. Con habilidades sólidas en atención al cliente y comunicación en español e inglés. Organizada, orientada a los detalles y capaz de gestionar múltiples tareas eficientemente. Busco crecer y destacar profesionalmente en el campo del diseño, aportando creatividad y compromiso a cada proyecto. </p>
-    <img class="foto"
-    alt="foto de perfil" 
-    src="/src/img/FOTO PERFIL (1).png" 
-    </section> 
-
-  <body>
-    <section>
-    <h1>PROYECTOS</h1>
-    <p> </p>
-    <img alt="BUSINESS WOMEN" src="/src/img/"
-    <img alt="UP CLOSE STORIES" src="/src/img/perfil"
-    <img alt="VENTAS CLICK" src="/src/img/perfil"
-    <img alt="ORBIT" src="/src/img/perfil"
-    <img alt="TAPUI" src="/src/img/perfil"
-    <img alt="THE AGAVE EXPERIENCE" src="/src/img/perfil"
-    </section> 
-
-    <section>
-    <h1> EXPERIENCIA</h1>
+    <section id="sobre-mi" class="container mt-5">
+        <h2>Sobre Mí</h2>
+        <h3>María Schneider</h3>
+        <p>Estudiante de Diseño Integral con experiencia en gestión de redes sociales y creación de propuestas de diseño publicitario...</p>
+        <img class="foto" alt="Foto de perfil" src="/src/img/FOTO PERFIL (1).png" class="img-fluid">
     </section>
 
-    <section>
-      <h1> HABILIDADES</h1>
-        <h2> Español: Idioma nativo </H2>
-        <h3>Ingles: Avanzado  </h3>
-        <h4> Italiano: Básico</h4> 
-      
-      </section>
+    <section id="proyectos" class="container mt-5">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4"><img src="/src/img/BW.png" class="img-fluid" alt="BUSINESS WOMEN"></div>
+            <div class="col-md-4"><img src="/src/img/UCST.png" class="img-fluid" alt="UP CLOSE STORIES"></div>
+            <div class="col-md-4"><img src="/src/img/ventas clcik.png" class="img-fluid" alt="VENTAS CLICK"></div>
+            <div class="col-md-4"><img src="/src/img/orbit.png" class="img-fluid" alt="orbit"></div>
+            <div class="col-md-4"><img src="/src/img/CASA METL.png" class="img-fluid" alt="CASA METL"></div>
+        </div>
+    </section>
 
-      <section>
-        <h1> EDUCACIÓN</h1>
-        <p> 2015-2018</p>
-        </section>
+    <section id="experiencia" class="container mt-5">
+        <h2>EXPERIENCIA</h2>
+        <P>2023 - Actualidad
+            Freelancer – Storytelling.
+            Diseño de información
+            Jun 2023 - Ago 2023
+            Auxiliar de Diseño – Hotel Club Da Baia (Italia).
+            Diseño de páginas en WordPress.
+            Gestión de contenido y branding.
+            Diseño de bocetos y layouts para logos, etiquetas y packaging.
+            Oct 2022 - May 2023
+            Auxiliar Administrativo – Renter.
+            Apoyo en la organización de eventos.
+            Manejo de redes sociales y atención a clientes.
+            Facturación, compras y gestión de stock.
+            Sep 2021 - May 2023
+            Creador de contenido y auxiliar administrativo – Business Women.
+            Diseño de planes de marketing y publicidad.
+            Producción y edición de videos y contenido audiovisual.
+            Organización de webinars y eventos en línea.
+            Dic 2018 - Ene 2020
+            Auxiliar de ventas – Vive Verde Ecotienda.
+            Manejo de redes sociales y atención a clientes.
+            Gestión de inventario y apoyo en exposiciones.
+            Jun 2019 - Jul 2019
+            Auxiliar contable – Angloamericano.
+            Redacción de cheques y organización de documentos.
+            Revisión de facturas y devengos.
+            Jun 2018 - Ene 2019
+            Ayudante en mostrador – Relojería.
+            Gestión de ventas y apoyo en reparación de relojes.
+            Organización del área de mostrador.</P>
+    </section>
 
-        <section>
-          <h1> GALERIA</h1>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section id="habilidades" class="container mt-5">
+        <h2>HABILIDADES</h2>
+        <p>Español: Nativo | Inglés: Avanzado | Italiano: Básico</p>
+        <P>Técnicas: Microsoft Office (Avanzado), Canva (Avanzado), WordPress (Básico), Illustrator (Intermedio), Photoshop (Básico), Mailchimp (Avanzado), Redes sociales (Avanzado).
+            Blandas: Creatividad, adaptabilidad, trabajo en equipo, atención al cliente.</P>
+    </section>
 
-            </div>
+    <section id="galeria" class="container mt-5">
+        <h2>GALERIA</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="src/img/AGAVE.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div/>
-              </div>
-              <div class="carousel-item">
-                <img src="src/img/BW.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                <div class="carousel-item active">
+                    <img src="src/img/AGAVE.png" class="d-block w-100" alt="">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="src/img/CASA METL.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                <div class="carousel-item">
+                    <img src="src/img/BW.png" class="d-block w-100" alt="">
                 </div>
-              </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
-          </div>
-          </section>
+        </div>
+    </section>
 
-
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
