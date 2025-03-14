@@ -4,5 +4,58 @@
 }
     /* importaciones */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Walter+Turncoat&display=swap');
 
+
+h1.titulo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 80px;
+    
+  }
+  
+  /* Fondo blanco y sin bordes */
+.custom-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+  }
+  
+  /* Estilo del logo */
+  .custom-brand {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Centrar el menú */
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Color más oscuro en hover */
+  .navbar-nav .nav-link:hover {
+    color: #000;
+  }
+  
+  /* Destacar la sección activa */
+  .navbar-nav .nav-link.active {
+    font-weight: 600;
+    color: #000;
+  }
+  
