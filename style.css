@@ -59,3 +59,44 @@ h1.titulo {
     color: #000;
   }
   
+  .icono{
+    max-width: 70px; 
+}
+
+/* Galería de proyectos */
+.project-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Ajuste de imágenes */
+  .project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  /* Efecto de oscurecimiento al pasar el mouse */
+  .project-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.5); /* Oscurece la imagen */
+  }
+  
+  /* Overlay con título en el centro */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4); /* Oscurece la imagen ligeramente */
+    color: white;
+    font-size
+}
+
