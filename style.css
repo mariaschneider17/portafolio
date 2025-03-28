@@ -6,6 +6,45 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Walter+Turncoat&display=swap');
 
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Secciones con fondo blanco */
+.section-1, .section-3,.section-5, .section-7 {
+  background-color: #fbfaf8f7; /* Blanco */
+  padding: 20px;
+  color: black;
+}
+
+/* Secciones con fondo negro */
+.section-2, .section-4, .section-6{
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* Estilos adicionales */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contacto {
+  text-align: center;
+  padding: 20px;
+}
+
+.iconos-contacto {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+}
+
 
 h1.titulo {
         font-family: "Poppins", sans-serif;
@@ -14,15 +53,30 @@ h1.titulo {
         font-size: 80px;
     
   }
+  .perfil {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.foto {
+    width: 100px; 
+    height: 95px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #fff; 
+}
+
+
   
-  /* Fondo blanco y sin bordes */
+  /* barra de navegacion */
 .custom-navbar {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 15px 0;
   }
   
-  /* Estilo del logo */
+  /* Estilo del titulo */
   .custom-brand {
     font-size: 28px;
     font-weight: 700;
@@ -50,12 +104,12 @@ h1.titulo {
 
   /* Estilos generales de mis proyectos */
 section {
-  max-width: 800px; /* Limita el ancho para mejor lectura */
-  margin: 0 auto 40px; /* Centrado con espacio entre secciones */
+  max-width: 800px;
+  margin: 0 auto 40px; 
   padding: 20px;
-  background: #f9f9f9; /* Fondo sutil para resaltar el contenido */
-  border-radius: 10px; /* Bordes suaves */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  background: #f9f9f9;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Títulos */
@@ -69,7 +123,7 @@ section h2 {
 
 /* Párrafos */
 section p {
-  text-align: justify; /* Justificado para mejor lectura */
+  text-align: justify; 
   font-size: 16px;
   line-height: 1.6;
   color: #555;
