@@ -216,7 +216,7 @@ section p {
 /*estilo de seccion expereincia*/
 .tarjetas-experiencia {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Define 4 columnas de tamaño igual */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
     padding: 20px;
 }
@@ -229,7 +229,49 @@ section p {
   background-color: white;
   border-radius: 15px;
   padding: 20px;
-  width: 22%;
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*estilo habilidades*/
+  .icono-circulo {
+  width: 140px;  
+  height: 140px; 
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Esto recorta la imagen dentro del círculo */
+}
+
+.icono-circulo img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain; /* Hace que la imagen no se deforme */
+} */
+
+
+.icono-circulo {
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono-circulo img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+.habilidades-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
