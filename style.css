@@ -275,3 +275,13 @@ section p {
   gap: 30px;
 }
 
+.subrayado {
+  background-color: white;
+  color: black;
+  padding: 0px 5px;
+  font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 80px;
+}
+
