@@ -312,10 +312,10 @@ section p {
 
 .semicircle-bottom {
     position: absolute;
-    bottom: -25px; 
+    bottom: -23px; 
     left: 50%;
     transform: translateX(-50%); 
-    width: 50px;
+    width: 208.5px;
     height: 25px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
