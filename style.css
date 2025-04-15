@@ -50,9 +50,20 @@ h1.titulo {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: 80px;
+        font-size: 100px;
     
   }
+
+  .subway-line-box {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Hace que se ajuste al contenido */
+  }
+  
+ 
+
   .perfil {
     display: flex;
     align-items: center; 
@@ -272,16 +283,44 @@ section p {
 .habilidades-contenedor {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
+/* estilo educacion */
+
 .subrayado {
-  background-color: white;
-  color: black;
-  padding: 0px 5px;
-  font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 80px;
+  font-size: 80px;
+  
+}
+
+.timeline-card{
+    background-color: white;
+    color: black;
+
+}
+.timeline {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.timeline .col{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.semicircle-bottom {
+    position: absolute;
+    bottom: -25px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 50px;
+    height: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    z-index: 1;
+
 }
 
