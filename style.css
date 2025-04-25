@@ -243,6 +243,31 @@ section p {
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.fecha {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.puesto {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.puesto span {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.descripcion {
+  padding-left: 20px;
+}
+
+.descripcion li {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
 
 /*estilo habilidades*/
   .icono-circulo {
