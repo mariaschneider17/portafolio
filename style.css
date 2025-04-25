@@ -288,14 +288,16 @@ section p {
 /* estilo educacion */
 
 .subrayado {
-  font-size: 80px;
+  font-size: 100px;
   
 }
 
 .timeline-card{
     background-color: white;
     color: black;
+    border-radius: 10px 10px 0 0 !important;
 
+    height: 127px;
 }
 .timeline {
     margin-top: 40px;
@@ -308,6 +310,7 @@ section p {
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 235px;
 }
 
 .semicircle-bottom {
@@ -315,12 +318,28 @@ section p {
     bottom: -23px; 
     left: 50%;
     transform: translateX(-50%); 
-    width: 208.5px;
+    width: 210.5px;
     height: 25px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     background-color: white;
     z-index: 1;
+    .card-text b {
+      white-space: nowrap;
+    }
+    
 
 }
+.same-width-section {
+  width: 100%;
+}
 
+/*contacto*/
+#contacto a {
+  color: black;
+  text-decoration: none;
+}
+
+#contacto a:hover {
+  text-decoration: underline;
+}
