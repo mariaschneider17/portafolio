@@ -243,6 +243,7 @@ section p {
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .fecha {
   font-size: 0.9rem;
   color: gray;
@@ -269,29 +270,11 @@ section p {
   font-size: 0.95rem;
 }
 
-/*estilo habilidades*/
-  .icono-circulo {
-  width: 140px;  
-  height: 140px; 
-  background-color: black;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Esto recorta la imagen dentro del círculo */
-}
-
-.icono-circulo img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain; /* Hace que la imagen no se deforme */
-} */
-
-
+/* Estilo habilidades */
 .icono-circulo {
   margin: 15px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background-color: black;
   border-radius: 50%;
   overflow: hidden;
@@ -305,10 +288,63 @@ section p {
   height: 70%;
   object-fit: contain;
 }
+
 .habilidades-contenedor {
   display: flex;
   flex-direction: column;
 }
+
+/* Nuevos estilos con los cambios de nombre */
+
+/* Contenedor de proyecto */
+.project-container-2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Imagen dentro del contenedor */
+.project-container-2 img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Overlay que aparece al pasar el mouse */
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Gris oscuro */
+  color: white;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+}
+
+/* Cuando el contenedor de proyecto se pasa el mouse */
+.project-container-2:hover .overlay-2 {
+  opacity: 1;
+}
+
+/* Título dentro del overlay */
+.overlay-2 h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo de la imagen fluida */
+.img-fluid-2 {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
 
 /* estilo educacion */
 
